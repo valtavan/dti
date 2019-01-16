@@ -19,7 +19,6 @@ for path in p.glob('*.txt'):
     avg += curr
     n   += 1
     
-print('{:d} files'.format(n))
 avg = avg/n
 
 np.savetxt('avg.txt', avg)
